@@ -1,15 +1,15 @@
 %octave.script
 %School         :TESJI
 %Career         :ISC
-%Title          :Clasificacion de los números 
+%Title          :Comprobacion de inecuaciones de primer y segundo grado 
 %Description    :Scrip desigualdades de valor absoluto 
-%Authors        :Lorena Garcia, Debora Alejandra Garcia, Sandy Judith Hernandez
+%Authors        :Lorena Garcia Garcia, Debora Alejandra Garcia Cruz, Sandy Judith Hernandez Carlos
 %Date           :20211007
 %Version        :1
 %Usage          :octave >/path/Desigualdadesdevalorabsoluto
-%Notes          :Requiere CLI Octave para poder dar reolucion a las desigualdades de valor absoluto
+%Notes          :Requerimos de  CLI Octave para poder dar reolucion a las desigualdades de valor absoluto
 
-%Inecuación de primer grado(IPG)
+%InecuaciÃ³n de primer grado(IPG)
 pkg load symbolic
 syms x
 disp('---------------Inecuacion de primer grado(IPG)-----');
@@ -18,11 +18,11 @@ solve (x-7 > 6)
 disp('Su intervalo va desde (-oo , 12)')
 
 syms x
-g=x-13
+t=x-13
 subplot(2,2,1);
-ezplot(g)     
+ezplot(t)     
 
-%Inecuación de segundo grado(ISG)
+%InecuaciÃ³n de segundo grado(ISG)
 pkg load symbolic
 syms x
 disp('---------------Inecuacion de segundo grado(ISG)-----');
@@ -30,9 +30,9 @@ disp('---6*x^2+9*x<-1---');
 solve (6*x^2+9*x<-1)
 
 syms x
-g=6*x^2+9*x+1
+t=6*x^2+9*x+1
 subplot(2,2,2);
-ezplot(g)
+ezplot(t)
 
 
 %Inecuacion con valor absoluto(IVA)
@@ -41,6 +41,6 @@ syms x
 disp('---------------Inecuacion con valor absoluto(IVA)-----');
 disp('abs (x+8)>5');
 solve (abs(x+8)>5)
-g=x+3
+t=x+3
 subplot(2,2,3);
-ezplot(g)
+ezplot(t)
