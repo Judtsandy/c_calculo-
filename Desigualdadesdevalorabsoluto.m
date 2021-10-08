@@ -12,7 +12,7 @@
 %Inecuación de primer grado(IPG)
 pkg load symbolic
 syms x
-disp('---------------Inecuacion de primer grado(IPG)-----');
+disp('------Inecuacion de primer grado(IPG)-----');
 disp('---x-7 < 6---');
 solve (x-7 > 6)
 disp('Su intervalo va desde (-oo , 12)')
@@ -38,7 +38,7 @@ ezplot(t)
 %Inecuacion con valor absoluto(IVA)
 pkg load symbolic
 syms x
-disp('---------------Inecuacion con valor absoluto(IVA)-----');
+disp('------Inecuacion con valor absoluto(IVA)-----');
 disp('abs (x+8)>5');
 solve (abs(x+8)>5)
 t=x+3
