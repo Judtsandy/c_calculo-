@@ -12,7 +12,7 @@
 %Inecuación de primer grado(IPG)
 pkg load symbolic
 syms x
-disp('------Inecuacion de primer grado(IPG)-----');
+disp('--Inecuacion de primer grado(IPG)--');
 disp('---x-7 < 6---');
 solve (x-7 > 6)
 disp('Su intervalo va desde (-oo , 12)')
@@ -25,7 +25,7 @@ ezplot(t)
 %Inecuación de segundo grado(ISG)
 pkg load symbolic
 syms x
-disp('---------------Inecuacion de segundo grado(ISG)-----');
+disp('---Inecuacion de segundo grado(ISG)---');
 disp('---6*x^2+9*x<-1---');
 solve (6*x^2+9*x<-1)
 
