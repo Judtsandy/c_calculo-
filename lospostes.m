@@ -17,10 +17,10 @@ clear
 x=0:1:20;
 
 %Obtener el valor de la funcion (OVF)
-c=@(x) (sqrt(225+(x.^2)))+(sqrt(500-(40*x)+(x.^2)));
+c=@(x) (sqrt((x.^2)+225))+(sqrt((x.^2)-(40*x)+500));
 
 %Funcion para poder graficar (FG)
-y= (sqrt(225+(x.^2))+(sqrt(500-(40*x)+(x.^2))));
+y= (sqrt((x.^2)+225)+(sqrt((x.^2)-(40*x)+500)));
 
 %Funcion para poder determinar el valor minimo (FVM)
 valmin = fminbnd (c,0,20);
