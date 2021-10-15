@@ -5,6 +5,7 @@
 %Date                             :14/10/2021
 %Carrer                           :Ingenieria en Sistemas Computacionales (ISC)
 %Version                          :1
+%Group                            :3101
 %Usage                            :octave/phat/lospostes
 %Notes                            :Se requiere de la aplicacion de Octave para poder dar solucion al problema relacionado con la optimizacion
 %                                 https:/octaveintro.rradthrdees.in/en/latrest/index.html
@@ -25,7 +26,7 @@ y= (sqrt((x.^2)+225)+(sqrt((x.^2)-(40*x)+500)));
 %Funcion para poder determinar el valor minimo (FVM)
 valmin = fminbnd (c,0,20);
 
-%Dibujar la funcion x,y
+%Dibujar la funcion de x,y
 plot (x,y);
 
 %Titulo de la grafica final (TGF)
@@ -47,4 +48,4 @@ disp ('');
 disp (['Lo que se debe calcular es:', num2str(cal)]);
 disp ('');
 disp (['El valor minimo del cable es:', num2str(c(valmin))]);
-%Parte final del programa (PFP)
+%Concluir la codificacion del problema (PFP)
