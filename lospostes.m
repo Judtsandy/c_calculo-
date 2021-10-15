@@ -1,7 +1,7 @@
 %Script octave
 %Title                            :Definicion y Resolucion de variables,funciones, dominio y rango
 %Description                      :Script para dar solucion al problema de los dos postes
-%Authors                          :Lorena,Debora Alejandra y Sandy Judith
+%Authors                          :Lorena García García, Debora Alejandra García Cruz y Sandy Judith Hernández Carlos
 %Date                             :14/10/2021
 %Carrer                           :Ingenieria en Sistemas Computacionales (ISC)
 %Version                          :1
