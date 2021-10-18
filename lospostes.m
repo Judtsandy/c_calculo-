@@ -24,22 +24,22 @@ c=@(x) (sqrt((x.^2)+225))+(sqrt((x.^2)-(40*x)+500));
 y= (sqrt((x.^2)+225)+(sqrt((x.^2)-(40*x)+500)));
 
 %Funcion para poder determinar el valor minimo (FVM)
-valmin = fminbnd (c,0,20);
+vm = fminbnd (c,0,20);
 
 %Dibujar la funcion de x,y
 plot (x,y);
 
 %Titulo de la grafica final (TGF)
-title (['El cable minimo es =' num2str(valmin)]);
+title (['El cable minimo es =' num2str(vm)]);
 
 %Etiqueta para lo que es el eje de x (EEX)
-xlabel(['Min x =' num2str(valmin)]);
+xlabel(['X =' num2str(vm)]);
 
 %Etiqueta para lo que es el eje de y (EEY)
-ylabel(['Min y='  num2str(c(valmin))]);
+ylabel(['Y='  num2str(c(vm))]);
 
 %Salidas (S)
 %Resultado final (RF);
-disp (['Lo que se debe calcular es la longitud minima de un cable desde la punta de un poste al suelo y a la punta del otro poste:');
-disp (['El valor minimo del cable es:', num2str(c(valmin))]);
+disp (' Lo que se debe calcular es la longitud mínima de un cable desde la punta de un poste al suelo y la punta del otro poste: ');
+disp ( ' ' );
 %Concluir la codificacion del problema (PFP)
