@@ -39,13 +39,7 @@ xlabel(['Min x =' num2str(valmin)]);
 ylabel(['Min y='  num2str(c(valmin))]);
 
 %Salidas (S)
-%Resultado final (RF)
-p='Dos postes verticales de 15m y 10m se colocan verticalmente sobre el piso con sus bases separadas a una distancia de 20m';
-cal= 'La longitud minima de un cable desde la punta de un poste al suelo y a la punta del otro poste';
-disp ('');
-disp(['El problema dice:', num2str(p)]);
-disp ('');
-disp (['Lo que se debe calcular es:', num2str(cal)]);
-disp ('');
+%Resultado final (RF);
+disp (['Lo que se debe calcular es la longitud minima de un cable desde la punta de un poste al suelo y a la punta del otro poste:');
 disp (['El valor minimo del cable es:', num2str(c(valmin))]);
 %Concluir la codificacion del problema (PFP)
