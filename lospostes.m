@@ -33,10 +33,10 @@ plot (x,y);
 title (['Donde se encuentra el distancia de la longitud minima del cable es en x=' num2str(vm)]);
 
 %Etiqueta para lo que es el eje de x (EEX)
-xlabel(['X =' num2str(vm)]);
+xlabel(['x =' num2str(vm)]);
 
 %Etiqueta para lo que es el eje de y (EEY)
-ylabel(['Y='  num2str(c(vm))]);
+ylabel(['x ='  num2str(c(vm))]);
 
 %Salidas (S)
 %Resultado final (RF);
