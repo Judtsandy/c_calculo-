@@ -42,5 +42,5 @@ ylabel(['y ='  num2str(c(vm))]);
 %Resultado final (RF);
 disp (' Lo que se debe calcular es la longitud mínima de un cable desde la punta de un poste al suelo y la punta del otro poste: ');
 disp ( ' ' );
-disp ([' Nuestra longitud minima del cable es:', num2str ( c (vm))]);
+disp (['Nuestra longitud minima del cable es:',num2str(c(vm))]);
 %Concluir la codificacion del problema (PFP)
