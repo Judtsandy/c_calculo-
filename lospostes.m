@@ -36,10 +36,11 @@ title (['Donde se encuentra el distancia de la longitud minima del cable es en x
 xlabel(['x =' num2str(vm)]);
 
 %Etiqueta para lo que es el eje de y (EEY)
-ylabel(['x ='  num2str(c(vm))]);
+ylabel(['y ='  num2str(c(vm))]);
 
 %Salidas (S)
 %Resultado final (RF);
 disp (' Lo que se debe calcular es la longitud mínima de un cable desde la punta de un poste al suelo y la punta del otro poste: ');
 disp ( ' ' );
+disp ([' Nuestra longitud minima del cable es:', num2str ( c (vm))]);
 %Concluir la codificacion del problema (PFP)
