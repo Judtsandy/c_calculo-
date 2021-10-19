@@ -30,7 +30,7 @@ vm = fminbnd (c,0,20);
 plot (x,y);
 
 %Titulo de la grafica final (TGF)
-title (['Donde se encuentra el distancia de la longitud minima del cable es en x=' num2str(vm)]);
+title (['Longitud minima del cable es' num2str(c(vm))]);
 
 %Etiqueta para lo que es el eje de x (EEX)
 xlabel(['x =' num2str(vm)]);
